@@ -60,7 +60,7 @@ def main():
         # mkdir a new folder to store the checkpoint and best model
         if not os.path.exists('result'):
             os.makedirs('result')
-        fdir = 'result/resnet20_cifar10'
+        fdir = 'result/resnext'
         if not os.path.exists(fdir):
             os.makedirs(fdir)
 
