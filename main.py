@@ -41,7 +41,7 @@ def main():
         # model can be set to anyone that I have defined in models folder
         # note the model should match to the cifar type !
 
-        model = resnet20_cifar()
+        # model = resnet20_cifar()
         # model = resnet32_cifar()
         # model = resnet44_cifar()
         # model = resnet110_cifar()
@@ -53,7 +53,7 @@ def main():
 
         # model = wide_resnet_cifar(depth=26, width=10, num_classes=100)
 
-        # model = resneXt_cifar(depth=29, cardinality=16, baseWidth=64, num_classes=100)
+        model = resneXt_cifar(depth=29, cardinality=4, baseWidth=64, num_classes=100)
         
         #model = densenet_BC_cifar(depth=190, k=40, num_classes=100)
 
